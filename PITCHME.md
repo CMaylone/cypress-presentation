@@ -69,8 +69,8 @@ describe('Post Resource', function() {
 })
 ```
 @[fragment-range]
-@[1, 20]
-@[2, 19]
+@[1]
+@[2]
 @[3]
 @[5]
 @[6]
@@ -79,6 +79,17 @@ describe('Post Resource', function() {
 @[11-12]
 @[14-15]
 @[17-18]
+
+---
+
+## Browser Support
+
+* Canary
+* Chrome
+* Chromium
+* Electron
+
+Supporting other browsers is on their roadmap: [more details here](https://github.com/cypress-io/cypress/issues/310)
 
 
 
