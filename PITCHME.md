@@ -34,8 +34,7 @@ cy.get('label.warning')
 
 * Queryies and interactions can be chained together
 ```javascript
-cy.get('textarea.post-body')
-  .type('This is an excellent post.')
+cy.get('textarea.post-body').type('This is an excellent post.')
 ```
 * When performing interactions Cypress assumes the element is "actionable". For example, when calling a `.click()` command Cypress asserts that the element is:
     * Not being hidden
@@ -69,6 +68,18 @@ describe('Post Resource', function() {
   })
 })
 ```
+@[fragment-range]
+@[1, 20]
+@[2, 19]
+@[3]
+@[5]
+@[6]
+@[5-6]
+@[8-9]
+@[11-12]
+@[14-15]
+@[17-18]
+
 
 
 
