@@ -18,6 +18,18 @@ Integration Testing
 3. Make an assertion about the resulting application state
 
 ---
+
+### Querying
+
+* Use jQuery like syntax to query elements 
+```javascript
+// Get all label elements with the warning class
+cy.get('label.warning')
+```
+* No need to write a bunch of wait statements. Cypress automatically retries the query until it finds the element or a configured timeout is reached
+
+---
+
 ### Example
 
 ```javascript
@@ -42,19 +54,6 @@ describe('Post Resource', function() {
   })
 })
 ```
-
----
-
-### Querying
-
-* Use jQuery like syntax to query elements 
-```javascript
-// Get all label elements with the warning class
-cy.get('label.warning')
-```
-* No need to write a bunch of wait statements. Cypress automatically retries the query until it finds the element or a configured timeout is reached
-
----
 
 
 
