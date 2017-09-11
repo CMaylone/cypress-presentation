@@ -30,6 +30,19 @@ cy.get('label.warning')
 
 ---
 
+### Interacting
+
+* Queryies and interactions can be chained together
+```javascript
+cy.get('textarea.post-body')
+  .type('This is an excellent post.')
+```
+* When performing interactions Cypress assumes the element is "actionable". For example, when calling a `.click()` command Cypress asserts that the element is:
+    * Not being hidden
+    * Not being covered
+    * Not being disabled
+    * Not animating
+
 ### Example
 
 ```javascript
