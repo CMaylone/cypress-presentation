@@ -11,14 +11,14 @@ Integration Testing
 3. Getting up and running
 
 ---
-## At a high-level tests should
+### At a high-level tests should
 
-1. Set up the application state.
-2. Take an action.
-3. Make an assertion about the resulting application state.
+1. Set up the application state
+2. Take an action
+3. Make an assertion about the resulting application state
 
 ---
-## First test
+### First test
 
 ```javascript
 describe('My First Test', function() {
