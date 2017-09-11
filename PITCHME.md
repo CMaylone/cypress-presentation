@@ -4,7 +4,6 @@
 Integration Testing
 
 ---
-
 ## What you will learn
 
 1. Why run integration tests
@@ -12,7 +11,13 @@ Integration Testing
 3. Getting up and running
 
 ---
+## At a high-level tests should
 
+1. Set up the application state.
+2. Take an action.
+3. Make an assertion about the resulting application state.
+
+---
 ## First test
 
 ```
@@ -22,15 +27,6 @@ describe('My First Test', function() {
   })
 })
 ```
-
----
-## Writing tests
-
-At a high level the integration tests should:
-1. Set up the application state.
-2. Take an action.
-3. Make an assertion about the resulting application state.
-
 
 
 
