@@ -42,6 +42,8 @@ cy.get('textarea.post-body')
     * Not being covered
     * Not being disabled
     * Not animating
+    
+---
 
 ### Example
 
