@@ -82,7 +82,7 @@ describe('Post Resource', function() {
 
 ---
 
-## Browser Support
+### Browser Support
 * Canary
 * Chrome
 * Chromium
