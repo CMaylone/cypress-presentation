@@ -5,7 +5,7 @@ Integration Testing
 
 ---
 
-# What you will learn
+## What you will learn
 
 1. Why run integration tests
 2. Comparision to other frameworks
@@ -13,7 +13,7 @@ Integration Testing
 
 ---
 
-# First test
+## First test
 
 ```
 describe('My First Test', function() {
