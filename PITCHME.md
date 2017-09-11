@@ -87,8 +87,7 @@ describe('Post Resource', function() {
 * Chrome
 * Chromium
 * Electron
-
-Supporting other browsers is on their roadmap: [more details here](https://github.com/cypress-io/cypress/issues/310)
+* Other browsers are on their roadmap: [more details here](https://github.com/cypress-io/cypress/issues/310)
 
 
 
