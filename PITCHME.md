@@ -24,6 +24,12 @@ describe('My First Test', function() {
 ```
 
 ---
+## Writing tests
+
+At a high level the integration tests should:
+1. Set up the application state.
+2. Take an action.
+3. Make an assertion about the resulting application state.
 
 
 
