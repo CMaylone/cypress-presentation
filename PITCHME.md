@@ -89,6 +89,25 @@ describe('Post Resource', function() {
 * Electron
 * Other browsers are on their roadmap: [more details here](https://github.com/cypress-io/cypress/issues/310)
 
+---
+
+### Travis Integration
+
+Easy:
+
+```bash
+npm install cypress --save-dev
+cypress run
+```
+
+
+
+
+---
+
+### Desktop Client
+
+---
 
 
 
