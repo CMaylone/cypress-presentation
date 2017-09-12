@@ -4,11 +4,11 @@
 Integration Testing
 
 ---
-## What you will learn
+## What is Cypress?
 
-1. Why run integration tests
-2. Comparision to other frameworks
-3. Getting up and running
+* A front end testing tool built for the modern web
+* Easy to get up and running
+* Tests anything that can run in a browser
 
 ---
 ### At a high-level tests should
@@ -91,6 +91,12 @@ describe('Post Resource', function() {
 
 ---
 
+### Desktop Client
+
+Demo
+
+---
+
 ### Travis Integration
 
 Easy:
@@ -99,14 +105,6 @@ Easy:
 npm install cypress --save-dev
 cypress run
 ```
-
-
-
-
----
-
-### Desktop Client
-
 ---
 
 
