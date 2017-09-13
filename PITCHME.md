@@ -32,7 +32,7 @@ cy.get('label.warning')
 
 ### Interacting
 
-* Queryies and interactions can be chained together
+* Queries and interactions can be chained together
 ```javascript
 cy.get('textarea.post-body').type('This is an excellent post.')
 ```
@@ -83,17 +83,9 @@ describe('Post Resource', function() {
 ---
 
 ### Browser Support
-* Canary
 * Chrome
-* Chromium
 * Electron
 * Other browsers are on their roadmap: [more details here](https://github.com/cypress-io/cypress/issues/310)
-
----
-
-### Desktop Client
-
-Demo
 
 ---
 
@@ -102,10 +94,18 @@ Demo
 Easy:
 
 ```bash
-npm install cypress --save-dev
+npm install cypress
 cypress run
 ```
 ---
+
+### Desktop Client
+
+Demo
+
+---
+
+
 
 
 
