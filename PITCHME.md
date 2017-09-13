@@ -11,13 +11,6 @@ Integration Testing
 * Tests anything that can run in a browser
 
 ---
-### At a high-level tests should
-
-1. Set up the application state
-2. Take an action
-3. Make an assertion about the resulting application state
-
----
 
 ### Querying
 
@@ -34,7 +27,7 @@ cy.get('label.warning')
 
 * Queries and interactions can be chained together
 ```javascript
-cy.get('textarea.post-body').type('This is an excellent post.')
+cy.get('textarea.post-body').type('This is a post.')
 ```
 * When performing interactions Cypress assumes the element is "actionable". For example, when calling a `.click()` command Cypress asserts that the element is:
     * Not being hidden
@@ -97,6 +90,15 @@ Easy:
 npm install cypress
 cypress run
 ```
+
+---
+
+### At a high-level tests should
+
+1. Set up the application state
+2. Take an action
+3. Make an assertion about the resulting application state
+
 ---
 
 ### Desktop Client
